@@ -1,4 +1,5 @@
 etc/nginx
+etc/nginx/apps.d
 etc/nginx/conf.d
 etc/nginx/modules-available
 etc/nginx/modules-enabled

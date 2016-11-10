@@ -1,5 +1,6 @@
-nginx (1.10.2-2) UNRELEASED; urgency=medium
+nginx (1.10.2-3) UNRELEASED; urgency=medium
 
+  [ Christos Trochalakis ]
   * Build against OpenSSL 1.1.0. (Closes: #828453)
     + Patch for nginx-lua by Alessandro Ghedini.
     + Patch for nginx-upstream-fair by Kurt Roeckx.
@@ -8,7 +9,18 @@ nginx (1.10.2-2) UNRELEASED; urgency=medium
     + Convert dav-ext to a dynamic module package:
       o libnginx-mod-http-dav-ext
 
- -- Christos Trochalakis <yatiohi@ideopolis.gr>  Sat, 29 Oct 2016 17:26:04 +0300
+  [ Michael Lustfield ]
+  * debian/conf/sites-available/default:
+    + Updated PHP sample configuration block. (Closes: #841230)
+    + Updated documentation and sample configuration. (Closes: #841488)
+  * Added support for package-maintained configuration files. (Closes: #822792)
+    + debian/conf/sites-available/default [+include]
+    + debian/conf/apps.d/README [added]
+    + debian/nginx-common.dirs [+apps.d]
+  * debian/nginx-common.postrm:
+    + Removing /etc/nginx from 'rm -rf' on purge.
+
+ -- Michael Lustfield <michael@lustfield.net>  Thu, 10 Nov 2016 07:21:14 +0000
 
 nginx (1.10.2-1) unstable; urgency=high
 

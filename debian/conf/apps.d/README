@@ -1,0 +1,5 @@
+This directory is included by the default configuration file. It is intended
+to be a place for web applications to place their configurations and have them
+included in the default server block.
+
+https://wiki.debian.org/Nginx/DirectoryStructure#appincludes

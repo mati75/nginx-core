@@ -13,7 +13,8 @@ dpkg-maintscript-helper rm_conffile \
 
 case "$1" in
   purge)
-    rm -rf /var/lib/nginx /var/log/nginx /etc/nginx
+    rm -f /etc/nginx/apps.d/README /etc/nginx/sites-enabled/default /var/www/html/index.nginx-debian.html
+    rm -rf /var/lib/nginx /var/log/nginx
     ;;
 
   upgrade|remove|failed-upgrade|abort-install|abort-upgrade|disappear)
