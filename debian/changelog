@@ -1,8 +1,15 @@
-nginx-core (1.13.1-1) experimental; urgency=medium
+nginx-core (1.13.1-2) unstable; urgency=medium
 
   * Build as nginx-core.
+  * Upload to unstable.
 
- -- Mateusz Łukasik <mati75@linuxmint.pl>  Wed, 31 May 2017 17:01:17 +0200
+ -- Mateusz Łukasik <mati75@linuxmint.pl>  Wed, 21 Jun 2017 09:03:00 +0200
+
+nginx (1.13.1-2) unstable; urgency=medium
+
+  * Upload to unstable.
+
+ -- Christos Trochalakis <ctrochalakis@debian.org>  Tue, 20 Jun 2017 14:16:52 +0300
 
 nginx (1.13.1-1) experimental; urgency=medium
 
