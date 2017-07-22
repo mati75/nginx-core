@@ -1,3 +1,9 @@
+nginx-core (1.13.3-2) unstable; urgency=medium
+
+  * Add missing files.
+
+ -- Mateusz Łukasik <mati75@linuxmint.pl>  Sat, 22 Jul 2017 10:43:59 +0200
+
 nginx-core (1.13.3-1) unstable; urgency=medium
 
   * Build as nginx-core.

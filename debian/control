@@ -32,11 +32,11 @@ Vcs-Browser: https://anonscm.debian.org/cgit/pkg-nginx/nginx.git
 
 Package: nginx-core
 Architecture: any
-Depends: libnginx-mod-http-geoip (= ${binary:Version}),
-         libnginx-mod-http-image-filter (= ${binary:Version}),
-         libnginx-mod-http-xslt-filter (= ${binary:Version}),
-         libnginx-mod-mail (= ${binary:Version}),
-         libnginx-mod-stream (= ${binary:Version}),
+Depends: libnginx-mod-http-geoip (= ${source:Version}),
+         libnginx-mod-http-image-filter (= ${source:Version}),
+         libnginx-mod-http-xslt-filter (= ${source:Version}),
+         libnginx-mod-mail (= ${source:Version}),
+         libnginx-mod-stream (= ${source:Version}),
          nginx-common (= ${source:Version}),
          ${misc:Depends},
          ${shlibs:Depends}   
