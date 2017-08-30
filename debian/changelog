@@ -1,14 +1,25 @@
-nginx-core (1.13.3-2) unstable; urgency=medium
-
-  * Add missing files.
-
- -- Mateusz Łukasik <mati75@linuxmint.pl>  Sat, 22 Jul 2017 10:43:59 +0200
-
-nginx-core (1.13.3-1) unstable; urgency=medium
+nginx-core (1.13.4-1) unstable; urgency=medium
 
   * Build as nginx-core.
 
  -- Mateusz Łukasik <mati75@linuxmint.pl>  Sat, 15 Jul 2017 23:47:00 +0200
+
+nginx (1.13.4-1) unstable; urgency=medium
+
+  * New upstream version 1.13.4
+  * nginx-lua:
+    + Add a simple lua autopkgtest
+    + Discover LuaJIT 2.1 (FTBFS) (Closes: #873319)
+    + Update to v0.10.10
+    + Update OpenSSL 1.1 patch
+    + Drop patch to build against Nginx 1.11.11, now included upstream
+  * tests: Fix race between reload and curl's http request
+  * Explicitly disable autoreconf (debhelper 10)
+  * Drop Upstart configuration
+  * Bump Standards to 4.1.0
+    + Switch all packages to Priority optional, extra is considered deprecated
+
+ -- Christos Trochalakis <ctrochalakis@debian.org>  Tue, 29 Aug 2017 10:49:03 +0300
 
 nginx (1.13.3-1) unstable; urgency=high
 
