@@ -1,8 +1,23 @@
-nginx-core (1.13.5-1) unstable; urgency=medium
+nginx-core (1.13.6-2) unstable; urgency=medium
 
   * Build as nginx-core.
 
  -- Mateusz Łukasik <mati75@linuxmint.pl>  Sat, 09 Sep 2017 22:53:30 +0200
+
+nginx (1.13.6-2) unstable; urgency=medium
+
+  * rtmp: Ship docs & examples (Closes: #878368)
+
+ -- Christos Trochalakis <ctrochalakis@debian.org>  Fri, 13 Oct 2017 12:59:28 +0300
+
+nginx (1.13.6-1) unstable; urgency=medium
+
+  * New upstream version
+  * Normalize module paths in packaging repository
+  * Bump Standards-Version, no changes needed
+  * Drop dh-systemd dependency since we depend on debhelper >= 10
+
+ -- Christos Trochalakis <ctrochalakis@debian.org>  Thu, 12 Oct 2017 10:37:29 +0300
 
 nginx (1.13.5-1) unstable; urgency=medium
 
