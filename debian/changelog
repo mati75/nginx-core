@@ -2,7 +2,7 @@ nginx-core (1.13.8-1) unstable; urgency=medium
 
   * Build as nginx-core.
 
- -- Mateusz Łukasik <mati75@linuxmint.pl>  Fri, 15 Dec 2017 10:56:04 +0100
+ -- Mateusz Łukasik <mati75@linuxmint.pl>  Thu, 28 Dec 2017 11:39:40 +0100
 
 nginx (1.13.8-1) unstable; urgency=medium
 
