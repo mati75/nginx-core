@@ -1,8 +1,14 @@
-nginx-core (1.13.9-1) unstable; urgency=medium
+nginx-core (1.13.10-1) unstable; urgency=medium
 
   * Build as nginx-core.
 
- -- Mateusz Łukasik <mati75@linuxmint.pl>  Thu, 22 Feb 2018 10:00:43 +0100
+ -- Mateusz Łukasik <mati75@linuxmint.pl>  Fri, 23 Mar 2018 05:39:58 +0100
+
+nginx (1.13.10-1) unstable; urgency=medium
+
+  * New upstream version
+
+ -- Christos Trochalakis <ctrochalakis@debian.org>  Wed, 21 Mar 2018 16:16:22 +0200
 
 nginx (1.13.9-1) unstable; urgency=medium
 
